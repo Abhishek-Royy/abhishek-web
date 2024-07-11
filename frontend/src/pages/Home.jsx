@@ -42,15 +42,20 @@ function Home() {
               >
                 HIRE ME
               </button>
-              <button
-                className="border rounded-lg font-medium text-base py-3 w-44 hover:bg-[#EAB308] hover:text-black ease-in duration-300"
-                style={{
-                  boxShadow:
-                    " #ffe72f 0px 1px 36px 0px, #f9e447 0px 0px 0px 1px",
-                }}
+              <a
+                href="https://drive.google.com/file/d/10FIoMgxfFh8U4K-MU3QPhGXSisze_O2a/view?usp=sharing"
+                target="_blank"
               >
-                GET CV
-              </button>
+                <button
+                  className="border rounded-lg font-medium text-base py-3 w-44 hover:bg-[#EAB308] hover:text-black ease-in duration-300"
+                  style={{
+                    boxShadow:
+                      " #ffe72f 0px 1px 36px 0px, #f9e447 0px 0px 0px 1px",
+                  }}
+                >
+                  GET CV
+                </button>
+              </a>  
             </div>
           </div>
           <div className="right lg:w-1/2 w-[95%] m-auto h-full mt-10 lg:mt-0 flex items-center justify-end">
