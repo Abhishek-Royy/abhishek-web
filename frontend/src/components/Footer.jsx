@@ -1,4 +1,3 @@
-
 import React from "react";
 import { NavLink } from "react-router-dom";
 
@@ -11,9 +10,10 @@ const Footer = () => {
             <div className="md:w-[316px]">
               <p className="text-[18px] font-medium text-black">
                 <h1 className="text-white font-bold text-2xl">
-                <span className="text-white text-3xl bg-yellow-500 px-3 py-[5px]  rounded-full">
-                  A
-                </span>BHISHEK
+                  <span className="text-white text-3xl bg-yellow-500 px-3 py-[5px]  rounded-full">
+                    A
+                  </span>
+                  BHISHEK
                 </h1>
               </p>
               <p className="mt-[18px] text-[15px] font-normal text-white">
@@ -23,7 +23,11 @@ const Footer = () => {
                 beatae id, at dicta.
               </p>
               <div className="mt-[18px]  flex gap-4">
-                <a className="hover:scale-110" target="_blank" href="https://facebook.com/login/">
+                <a
+                  className="hover:scale-110"
+                  target="_blank"
+                  href="https://facebook.com/login/"
+                >
                   <img
                     alt="facebook icon"
                     loading="lazy"
@@ -35,7 +39,11 @@ const Footer = () => {
                     src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png"
                   />
                 </a>
-                <a className="hover:scale-110" target="_blank" href="https://www.instagram.com/accounts/login/?hl=en">
+                <a
+                  className="hover:scale-110"
+                  target="_blank"
+                  href="https://www.instagram.com/accounts/login/?hl=en"
+                >
                   <img
                     alt="instagram icon"
                     loading="lazy"
@@ -47,7 +55,11 @@ const Footer = () => {
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png"
                   />
                 </a>
-                <a className="hover:scale-110" target="_blank" href="https://x.com/i/flow/login">
+                <a
+                  className="hover:scale-110"
+                  target="_blank"
+                  href="https://x.com/i/flow/login"
+                >
                   <img
                     alt="twitter icon"
                     loading="lazy"
@@ -59,7 +71,11 @@ const Footer = () => {
                     src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
                   />
                 </a>
-                <a className="hover:scale-110" target="_blank" href="https://www.linkedin.com/login">
+                <a
+                  className="hover:scale-110"
+                  target="_blank"
+                  href="https://www.linkedin.com/login"
+                >
                   <img
                     alt="inkdin icon"
                     loading="lazy"
@@ -75,7 +91,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="md:w-[316px]">           
+            <div className="md:w-[316px]">
               <div className="mt-[23px] flex">
                 <div className="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
                   <svg
@@ -134,9 +150,7 @@ const Footer = () => {
 
             <div className="mt-6 flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px]">
               <div>
-               
                 <ul>
-                 
                   <li className="mt-[15px]">
                     <NavLink
                       className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
@@ -176,7 +190,10 @@ const Footer = () => {
                   Download the app
                 </p>
                 <div className="flex gap-4 sm:flex-col">
-                  <a target="_blank" href="https://play.google.com/store/apps?hl=en_IN">
+                  <a
+                    target="_blank"
+                    href="https://play.google.com/store/apps?hl=en_IN"
+                  >
                     <img
                       alt="facebook icon"
                       loading="lazy"
