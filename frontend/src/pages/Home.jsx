@@ -4,6 +4,8 @@ import mainImage from "../assets/mainImg.png";
 import { FaCode } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
+import WhatDo from "../components/WhatDo";
+
 import SkillChart from "../components/SkillChart";
 
 function Home() {
@@ -79,13 +81,7 @@ function Home() {
         {/* SECTION-2 */}
 
         <div className="sec-2 w-full h-auto md:pt-20 bg-gradient-to-br from-black to-[#010815] py-10  md:px-32 text-white ">
-          <h1
-            className="w-max md:hidden  p-3 h-max mx-auto justify-center text-3xl font-bold animate-bounce flex items-center gap-3 text-[#ffe72f] mb-5"
-            // style={{
-            //   boxShadow:
-            //     " rgba(250, 250, 250, 0.16) 0px 10px 36px 0px, rgba(250, 250, 250, 0.06) 0px 0px 0px 1px",
-            // }}
-          >
+          <h1 className="w-max   p-3 h-max md:mx-0 mx-auto justify-center text-3xl font-bold animate-bounce flex items-center gap-3 text-[#fff] mb-5">
             MY TECH SKILLS
             <FaCode />
           </h1>
@@ -135,10 +131,16 @@ function Home() {
           </div>
         </div>
 
-
         {/* SECTION-3 */}
 
-        
+        <div className="sec-3 w-full h-auto md:pt-20 bg-gradient-to-tr from-black to-[#010815] py-10  md:px-32 text-white">
+          <h1 className="w-max   p-3 h-max md:mx-0 mx-auto justify-center text-3xl font-bold animate-bounce flex items-center gap-3 text-[#fff] mb-5">
+            WHAT I DO !
+          </h1>
+          <div className=" md:w-full w-[95%] m-auto h-auto">
+            <WhatDo/>
+          </div>
+        </div>
       </div>
     </>
   );

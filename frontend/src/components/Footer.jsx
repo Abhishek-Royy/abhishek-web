@@ -228,7 +228,7 @@ const Footer = () => {
           {/* <hr className="mt-[30px] text-red" /> */}
           <div className="flex items-center justify-center pb-8 pt-[9px] md:py-8">
             <p className="text-[14px] font-normal text-white md:text-[14px]">
-              © Copyright 2024 • All rights Reserved • happyCoding Family
+              © Copyright 2024 • All rights Reserved •<a href="https://www.linkedin.com/in/abhishek-roy-4a5244239/" target="_blank"> Abhishek Roy</a>
             </p>
           </div>
         </div>

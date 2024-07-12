@@ -1,0 +1,32 @@
+[
+    {
+        "task_image":"elearning.png",
+        "task_name":"This is an free E-learning Website",
+        "task_desc":"To create this website i used React JS, Talwind CSS, Mongo DB as databse. This is tottaly free of cost wesite, student can access their study materials free of cost, and they can also use a smart code editor for free.",
+        "task_link":"https://happy-coding-seven.vercel.app/"
+    },
+    {
+        "task_image":"gametosa.webp",
+        "task_name":"Gametosa- A Gaming Platfrom",
+        "task_desc":"It is awsome and unique gaming platfrom. I create the frontend part only. I used React js and Tailwind CSS to create the awsome UI.",
+        "task_link":"https://gametosa.com/"
+    },
+    {
+        "task_image":"gemini.jpg",
+        "task_name":"SelfGpt2.O a free AI tools",
+        "task_desc":"It is a AI tools. I used Tailwind css and React JS to create this and the major part is I used Google Gemini API to do all the functionality.",
+        "task_link":"https://selfgpt2-o.onrender.com/"
+    },
+    {
+        "task_image":"pay.webp",
+        "task_name":"Gpay Web payment Integration",
+        "task_desc":"It is a full functional Gpay payment gateway, There is only one button to pay. I used Javascript to implement it.",
+        "task_link":"https://prod.xfi-tech.shop/pay/v1/"
+    },
+    {
+        "task_image":"videocall.png",
+        "task_name":"Video calling application",
+        "task_desc":"This is a simple video calling application, There was no any UI, only backend code will done.",
+        "task_link":"https://github.com/Abhishek-Royy/Video-Chat-Application"
+    }
+]
