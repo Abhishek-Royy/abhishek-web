@@ -1,4 +1,6 @@
 import React from "react";
+import AboutSkills from "../components/AboutSkills";
+import ExperienceSection from "../components/Experience";
 
 function About() {
   return (
@@ -91,12 +93,45 @@ function About() {
             </div>
           </div>
 
-
           <div className="skills lg:w-full h-auto w-[95%] m-auto">
-          <h1 className="w-max  pt-10 h-max md:mx-0  justify-center text-2xl font-bold flex items-center gap-3 text-[#ffe72f] lg:pt-14 ">
+            <h1 className="w-max  pt-10 h-max md:mx-0  justify-center text-2xl font-bold flex items-center gap-3 text-[#ffe72f] lg:pt-14 ">
               Skills
             </h1>
+            <div>
+              <AboutSkills />
+            </div>
+          </div>
 
+          <div className="skills lg:w-full h-auto w-[95%] m-auto">
+            <h1 className="w-max  pt-10 h-max md:mx-0  justify-center text-2xl font-bold flex items-center gap-3 text-[#ffe72f] lg:pt-14 ">
+              Experience
+            </h1>
+            <div>
+              <ExperienceSection />
+            </div>
+          </div>
+
+          <div className="interest lg:w-full h-auto w-[95%] m-auto">
+            <h1 className="w-max  pt-10 h-max md:mx-0  justify-center text-2xl font-bold flex items-center gap-3 text-[#ffe72f] lg:pt-14 ">
+              Interest
+            </h1>
+            <div>
+              <div className="container mx-auto lg:p-8 py-8">
+                <div className="hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 shadow-md rounded-lg p-6">
+                  <p className="text-gray-900 dark:text-white mb-4">
+                    Outside of coding, I enjoy playing Cricke, watching movies, and
+                    travelling. I believe in continuous learning and often
+                    participate in hackathons, coding bootcamps, and online
+                    courses to keep my skills up-to-date.
+                  </p>
+                  <p className="text-gray-900 dark:text-white mb-4">
+                  🙋🏻‍♂️I am excited about the future of technology and look forward
+                    to contributing to innovative projects that make a
+                    difference. Thank you for visiting my portfolio.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

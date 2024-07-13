@@ -17,10 +17,9 @@ const Footer = () => {
                 </h1>
               </p>
               <p className="mt-[18px] text-[15px] font-normal text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-                fugit non. Incidunt dolorum adipisci, tempore asperiores nemo
-                odio facere officiis enim animi placeat eaque nesciunt alias
-                beatae id, at dicta.
+              Hello! I'm <span className="text-[#ffe72f]">Abhishek Roy</span>, a
+            Computer Science student at Brainware University with a passion for
+            Web Development & Photography.
               </p>
               <div className="mt-[18px]  flex gap-4">
                 <a
@@ -112,7 +111,7 @@ const Footer = () => {
                     href="mailto:help@lorem.com"
                     className="font-Inter text-[14px] font-medium text-gray-400"
                   >
-                    abhishek800.roy@gmail.com
+                    abhishek699.roy@gmail.com
                   </a>
                   <p className="font-Inter text-[12px] font-medium text-gray-400">
                     Support Email
