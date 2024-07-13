@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 import WhatDo from "../components/WhatDo";
 
 import SkillChart from "../components/SkillChart";
+import Faq from "../components/Faq";
 
 function Home() {
   useEffect(() => {
@@ -138,7 +139,17 @@ function Home() {
             WHAT I DO !
           </h1>
           <div className=" md:w-full w-[95%] m-auto h-auto">
-            <WhatDo/>
+            <WhatDo />
+          </div>
+        </div>
+
+        {/* SECTION-4 */}
+        <div className="sec-4 w-full h-auto md:pt-20 bg-black py-10  md:px-32 text-white">
+          <h1 className="md:w-max w-[95%] text-center  p-3 h-max md:mx-0 mx-auto justify-center text-3xl font-bold animate-bounce flex items-center gap-3 text-[#fff] mb-2">
+            FREQUIENTRY ASKED QUESTION TO ME
+          </h1>
+          <div className=" md:w-full w-[95%] m-auto h-auto">
+            <Faq />
           </div>
         </div>
       </div>

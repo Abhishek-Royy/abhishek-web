@@ -185,7 +185,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="mt-6 flex flex-col gap-4 sm:mt-0">
+              {/* <div className="mt-6 flex flex-col gap-4 sm:mt-0">
                 <p className="text-deutziawhite font-inter text-[18px] font-medium">
                   Download the app
                 </p>
@@ -222,7 +222,7 @@ const Footer = () => {
                     />
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* <hr className="mt-[30px] text-red" /> */}
