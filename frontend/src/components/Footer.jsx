@@ -25,7 +25,7 @@ const Footer = () => {
                 <a
                   className="hover:scale-110"
                   target="_blank"
-                  href="https://facebook.com/login/"
+                  href="https://www.facebook.com/profile.php?id=100033861155295"
                 >
                   <img
                     alt="facebook icon"
@@ -41,7 +41,7 @@ const Footer = () => {
                 <a
                   className="hover:scale-110"
                   target="_blank"
-                  href="https://www.instagram.com/accounts/login/?hl=en"
+                  href="https://www.instagram.com/itz.abhishek2.o/"
                 >
                   <img
                     alt="instagram icon"
@@ -73,7 +73,7 @@ const Footer = () => {
                 <a
                   className="hover:scale-110"
                   target="_blank"
-                  href="https://www.linkedin.com/login"
+                  href="https://www.linkedin.com/in/abhishek-roy-4a5244239/"
                 >
                   <img
                     alt="inkdin icon"

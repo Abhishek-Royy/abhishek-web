@@ -1,6 +1,10 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
+
+
+import ParticleComponents from "../components/Particle"
+
 function Contact() {
   const form = useRef();
   const [loading, setLoading] = useState(false);
@@ -30,8 +34,10 @@ function Contact() {
 
   return (
     <>
-      <section className="bg-black">
-        <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+   
+      <section className="">
+      <ParticleComponents id="particles" />
+        <div className="py-16 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-[#ffe72f]">
             Get In Touch
           </h2>

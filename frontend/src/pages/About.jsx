@@ -2,11 +2,15 @@ import React from "react";
 import AboutSkills from "../components/AboutSkills";
 import ExperienceSection from "../components/Experience";
 
+import ParticleComponents from "../components/Particle"
+
 function About() {
   return (
     <>
       <div className="main w-full min-h-full">
-        <div className="w-full  h-auto bg-black text-white md:px-32 pt-10 lg:pt-0">
+      <ParticleComponents id="particles" />
+        {/* <div className="w-full  h-auto bg-black text-white md:px-32 pt-10 lg:pt-0"> */}
+        <div className="w-full  h-auto text-white md:px-32 pt-20 lg:pt-0">
           <h1 className="w-max   p-3 h-max md:mx-0  justify-center text-3xl font-bold animate-bounce flex items-center gap-3 text-[#fff] lg:pt-16 ">
             ABOUT ME !
           </h1>

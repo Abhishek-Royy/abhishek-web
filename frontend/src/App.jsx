@@ -10,6 +10,8 @@ import Contactpage from "./pages/Contact";
 import Projectpage from "./pages/Projects";
 import Notfound from "./pages/Notfound";
 
+
+
 function App() {
   return (
     <>
