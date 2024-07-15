@@ -2,15 +2,14 @@ import React, { useEffect } from "react";
 import Typed from "typed.js";
 import mainImage from "../assets/mainImg.png";
 import { FaCode } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import WhatDo from "../components/WhatDo";
 
 import SkillChart from "../components/SkillChart";
 import Faq from "../components/Faq";
 
-
-
-import ParticleComponents from "../components/Particle"
+import ParticleComponents from "../components/Particle";
 
 function Home() {
   useEffect(() => {
@@ -29,11 +28,10 @@ function Home() {
   return (
     <>
       <div className="main w-full min-h-full">
-
-      <ParticleComponents id="particles" />
+        <ParticleComponents id="particles" />
         {/* SECTION-1 */}
         <div className="sec-1 w-full lg:h-[90vh] h-auto  text-white md:px-32 pt-20 lg:pt-0">
-        {/* <div className="sec-1 w-full lg:h-[90vh] h-auto bg-black text-white md:px-32 pt-20 lg:pt-0"> */}
+          {/* <div className="sec-1 w-full lg:h-[90vh] h-auto bg-black text-white md:px-32 pt-20 lg:pt-0"> */}
           <div className="w-full  h-full md:flex">
             <div className="left w-[95%] m-auto  md:w-1/2 h-full  flex flex-col items-start  justify-center">
               <h3 className="text-3xl font-bold">Hello👋, Welcome</h3>
@@ -49,8 +47,8 @@ function Home() {
               </p>
               <div className="gap-10 w-full flex mt-8">
                 {/* <NavLink to="/contact"> */}
-                <a
-                  href="/contact"
+                <Link
+                  to="/contact"
                   className="border rounded-lg text-center font-medium text-base py-3 w-44 hover:bg-[#EAB308] hover:text-black ease-in duration-300"
                   style={{
                     boxShadow:
@@ -58,14 +56,14 @@ function Home() {
                   }}
                 >
                   HIRE ME
-                </a>
+                </Link>
                 {/* </NavLink> */}
                 {/* <a
                   href="https://drive.google.com/file/d/10FIoMgxfFh8U4K-MU3QPhGXSisze_O2a/view?usp=sharing"
                   target="_blank"
                 > */}
-                <a
-                  href="https://drive.google.com/file/d/10FIoMgxfFh8U4K-MU3QPhGXSisze_O2a/view?usp=sharing"
+                <Link
+                  to="https://drive.google.com/file/d/10FIoMgxfFh8U4K-MU3QPhGXSisze_O2a/view?usp=sharing"
                   target="_blank"
                   className="border rounded-lg font-medium text-center text-base py-3 w-44 hover:bg-[#EAB308] hover:text-black ease-in duration-300"
                   style={{
@@ -74,7 +72,7 @@ function Home() {
                   }}
                 >
                   GET CV
-                </a>
+                </Link>
                 {/* </a> */}
               </div>
             </div>
@@ -144,8 +142,8 @@ function Home() {
         {/* SECTION-3 */}
 
         <div className="sec-3 w-full h-auto md:pt-20  py-10  md:px-32 text-white">
-        {/* <div className="sec-3 w-full h-auto md:pt-20 bg-gradient-to-tr from-black to-[#010815] py-10  md:px-32 text-white"> */}
-        <ParticleComponents id="particles" />
+          {/* <div className="sec-3 w-full h-auto md:pt-20 bg-gradient-to-tr from-black to-[#010815] py-10  md:px-32 text-white"> */}
+          <ParticleComponents id="particles" />
           <h1 className="w-max   p-3 h-max md:mx-0 mx-auto justify-center text-3xl font-bold animate-bounce flex items-center gap-3 text-[#fff] mb-5">
             WHAT I DO !
           </h1>
