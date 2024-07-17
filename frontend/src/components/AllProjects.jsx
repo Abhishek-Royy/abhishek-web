@@ -6,10 +6,10 @@ function AllProjects() {
     <>
       <div className="iDo md:w-full w-[95%] m-auto h-auto flex gap-5 flex-wrap  justify-center">
         {taskItem.map((item) => (
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href={item.task_link} target="_blank">
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+            <a  href={item.task_link} target="_blank">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg "
                 src={item.task_image}
                 alt={item.task_name}
               />

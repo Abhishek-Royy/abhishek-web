@@ -28,5 +28,11 @@
         "task_name":"Video calling application",
         "task_desc":"This is a simple video calling application, There was no any UI, only backend code will done.",
         "task_link":"https://github.com/Abhishek-Royy/Video-Chat-Application"
+    },
+    {
+        "task_image":"gamingCurrency.png",
+        "task_name":"Gaming Currency awsome UI",
+        "task_desc":"This is a simple & unique web page about Gaming Currency. I used Html and Css to create this Web page.",
+        "task_link":"https://prod.xfi-tech.shop/currency/"
     }
 ]

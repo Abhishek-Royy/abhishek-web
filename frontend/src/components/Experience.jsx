@@ -4,15 +4,15 @@ const experiences = [
   {
     jobTitle: "Frontend Developer",
     companyName: "Infroot Solution",
-    dates: "April 2024 - Present",
+    dates: "April 2024 - Present • Hybrid",
     description: "Created responsive designs that increased mobile user engagement by 30%, and also handle API"
   },
-  // {
-  //   jobTitle: "Frontend Developer",
-  //   companyName: "Web Solutions",
-  //   dates: "Jun 2018 - Dec 2019",
-  //   description: "Created responsive designs that increased mobile user engagement by 30%."
-  // }
+  {
+    jobTitle: "Frontend Developer",
+    companyName: "Gametosa Esports Community",
+    dates: "Present- (Remote)",
+    description: "Created responsive and eye-catching designs for all gamers and users."
+  }
 ];
 
 const ExperienceSection = () => {
