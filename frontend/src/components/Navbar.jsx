@@ -79,7 +79,7 @@ const Navbar = () => {
                   About
                 </NavLink>
                 <NavLink
-                  to="https://drive.google.com/file/d/10FIoMgxfFh8U4K-MU3QPhGXSisze_O2a/view?usp=sharing"
+                  to="https://drive.google.com/file/d/1hMjlmsnZkOxnRTjbmY8nkFZe7Q-zxK_9/view?usp=sharing"
                   target="_blank"
                   className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                 >
