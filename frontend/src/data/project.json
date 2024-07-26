@@ -24,6 +24,12 @@
         "task_link":"https://prod.xfi-tech.shop/pay/v1/"
     },
     {
+        "task_image":"gameshop.png",
+        "task_name":"Fulldynamic Gaming Store",
+        "task_desc":"This is a gaming store  page ui, made as such company requirements.",
+        "task_link":"https://prod.xfi-tech.shop/shop/"
+    },
+    {
         "task_image":"videocall.png",
         "task_name":"Video calling application",
         "task_desc":"This is a simple video calling application, There was no any UI, only backend code will done.",
@@ -35,4 +41,5 @@
         "task_desc":"This is a simple & unique web page about Gaming Currency. I used Html and Css to create this Web page.",
         "task_link":"https://prod.xfi-tech.shop/currency/"
     }
+    
 ]
