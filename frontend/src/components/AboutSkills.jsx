@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const skills = {
   programmingLanguages: ["Python", "JavaScript", "C"],
@@ -24,9 +25,11 @@ const SkillCategory = ({ title, skills }) => {
       <h3 className="text-2xl font-semibold mb-4">{title}</h3>
       <ul className="list-disc list-inside space-y-2">
         {skills.map((skill, index) => (
-          <li key={index} className="text-gray-700 dark:text-gray-400">
+          <motion.li
+          whileHover={{x:8}}
+          key={index} className="text-gray-700 dark:text-gray-400">
             {skill}
-          </li>
+          </motion.li>
         ))}
       </ul>
     </div>

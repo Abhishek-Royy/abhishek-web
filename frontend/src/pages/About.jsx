@@ -3,6 +3,7 @@ import AboutSkills from "../components/AboutSkills";
 import ExperienceSection from "../components/Experience";
 
 import ParticleComponents from "../components/Particle"
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -54,7 +55,9 @@ function About() {
               Education
             </h1>
             <div className="edu-wrapper flex flex-wrap">
-              <div className=" hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 p-6 rounded-lg shadow-md max-w-md mx-auto my-8">
+              <motion.div
+              whileHover={{y:-5}}
+              className=" hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 p-6 rounded-lg shadow-md max-w-md mx-auto my-8">
                 <p className="text-gray-900 dark:text-white">
                   <span className="block text-lg font-semibold">
                     Diploma in Computer Science and Technology
@@ -73,8 +76,10 @@ function About() {
                     Networking etc.
                   </span>
                 </p>
-              </div>
-              <div className="hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 p-6 rounded-lg shadow-md max-w-md mx-auto my-auto">
+              </motion.div>
+              <motion.div 
+              whileHover={{y:-5}}
+              className="hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 p-6 rounded-lg shadow-md max-w-md mx-auto my-auto">
                 <p className="text-gray-900 dark:text-white">
                   <span className="block text-lg font-semibold">
                     Bachelor of Computer Science and Engineering
@@ -93,7 +98,7 @@ function About() {
                     Javascript, Aptitutte, Interview Preparation
                   </span>
                 </p>
-              </div>
+              </motion.div>
             </div>
           </div>
 
