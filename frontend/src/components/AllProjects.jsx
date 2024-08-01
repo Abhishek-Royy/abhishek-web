@@ -1,12 +1,15 @@
 import React from "react";
 import taskItem from "../data/project.json";
+import { motion } from "framer-motion"
 
 function AllProjects() {
   return (
     <>
       <div className="iDo md:w-full w-[95%] m-auto h-auto flex gap-5 flex-wrap  justify-center">
         {taskItem.map((item) => (
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+          <motion.div
+          whileHover={{y:-5}}
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
             <a  href={item.task_link} target="_blank">
               <img
                 className="rounded-t-lg "
@@ -50,7 +53,7 @@ function AllProjects() {
                 </svg>
               </a>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </>
