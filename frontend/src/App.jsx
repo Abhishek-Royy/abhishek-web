@@ -12,6 +12,9 @@ import Projectpage from "./pages/Projects";
 import Notfound from "./pages/Notfound";
 import Preloader from "./components/Preloader";
 
+
+import Chatbot from "./chatbot/bot"
+
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -37,6 +40,7 @@ function App() {
             <Route path="/contact" element={<Contactpage />} />
             <Route path="*" element={<Notfound />} />
           </Routes>
+          <Chatbot/>
           <Footer />
         </BrowserRouter>
       )}
