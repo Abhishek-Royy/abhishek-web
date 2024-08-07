@@ -4,6 +4,8 @@ import mainImage from "../assets/mainImg.png";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+import abhi from "../assets/abhishek.png"
+
 import WhatDo from "../components/WhatDo";
 
 import SkillChart from "../components/SkillChart";
@@ -78,8 +80,8 @@ function Home() {
             </div>
             <div className="right  lg:w-1/2 w-[95%] m-auto h-full mt-10 lg:mt-0 flex items-center justify-end">
               <img
-                className="w-full h-full object-contain"
-                src={mainImage}
+                className="w-full md:w-[455px] h-full object-contain"
+                src={abhi}
                 alt="image"
               />
             </div>
