@@ -61,11 +61,11 @@ function Home() {
                 </Link>
                 {/* </NavLink> */}
                 {/* <a
-                  href="https://drive.google.com/file/d/10FIoMgxfFh8U4K-MU3QPhGXSisze_O2a/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1hMjlmsnZkOxnRTjbmY8nkFZe7Q-zxK_9/view?usp=sharing"
                   target="_blank"
                 > */}
                 <Link
-                  to="https://drive.google.com/file/d/1hMjlmsnZkOxnRTjbmY8nkFZe7Q-zxK_9/view?usp=sharing"
+                  to=""
                   target="_blank"
                   className="border rounded-lg font-medium text-center text-base py-3 w-44 hover:bg-[#EAB308] hover:text-black ease-in duration-300"
                   style={{

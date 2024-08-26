@@ -9,7 +9,6 @@
 //     setIsOpen(!isOpen);
 //   };
 
-
 //   const variants = {
 //     open: { opacity: 1, x: 0 },
 //     closed: { opacity: 0, x: "-100%" },
@@ -160,9 +159,6 @@
 
 // export default Navbar;
 
-
-
-
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -180,9 +176,7 @@ const Navbar = () => {
   };
 
   return (
-    <motion.nav
-      className="bg-gradient-to-t from-black to-[#061A40] text-white sticky top-0 z-[9999999999999]"
-    >
+    <motion.nav className="bg-gradient-to-t from-black to-[#061A40] text-white sticky top-0 z-[9999999999999]">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-20">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -206,7 +200,6 @@ const Navbar = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                aria-hidden="true"
               >
                 <path
                   strokeLinecap="round"
@@ -258,7 +251,7 @@ const Navbar = () => {
                   About
                 </NavLink>
                 <NavLink
-                  to="https://drive.google.com/file/d/1hMjlmsnZkOxnRTjbmY8nkFZe7Q-zxK_9/view?usp=sharing"
+                  to="njkrbfjb"
                   target="_blank"
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                 >
