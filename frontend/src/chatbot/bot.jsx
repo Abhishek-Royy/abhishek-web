@@ -1,4 +1,4 @@
-// // src/components/Chatbot.js
+// src/components/Chatbot.js
 
 // import React from 'react';
 // import ChatBot from 'react-simple-chatbot';

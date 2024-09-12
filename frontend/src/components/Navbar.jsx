@@ -297,7 +297,7 @@ const Navbar = () => {
             About
           </NavLink>
           <NavLink
-            to="https://drive.google.com/file/d/10FIoMgxfFh8U4K-MU3QPhGXSisze_O2a/view?usp=sharing"
+            to="https://drive.google.com/file/d/10FIoMggngfnfgxfFh8U4K-MU3QPhGXSisze_O2a/view?usp=sharing"
             target="_blank"
             className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-4 rounded-md text-xl font-medium"
           >
