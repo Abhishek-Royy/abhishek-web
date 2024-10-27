@@ -40,6 +40,13 @@
         "task_name":"Gaming Currency awsome UI",
         "task_desc":"This is a simple & unique web page about Gaming Currency. I used Html and Css to create this Web page.",
         "task_link":"https://prod.xfi-tech.shop/currency/"
+    },
+    
+    {
+        "task_image":"phoenix.png",
+        "task_name":"Phoenix- a tech solution",
+        "task_desc":"This is a tech service provideing company, here i create frontend and backend part both.",
+        "task_link":"https://phoenixtechsolution.onrender.com/"
     }
     
 ]
